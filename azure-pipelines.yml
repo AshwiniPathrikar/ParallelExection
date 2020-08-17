@@ -1,10 +1,4 @@
 # ASP.NET
-- task: VSBuild@1
-  inputs:
-    solution: 'D:\All\ParallelExeGit\ParallelExe\ParallelExe.sln'
-    vsVersion: '15.0'
-    msbuildArgs: '/p:OutDir=$(Agent.BuildDirectory)\a /p:SkipInvalidConfigurations=true /p:GenerateProjectSpecificOutputFolder=true /p:BuildInParallel=false /p:UseWPP_CopyWebApplication=true /p:PipelineDependsOnBuild=false /p:GenerateBuildInfoConfigFile=false'
-    clean: true
 # Build and test ASP.NET projects.
 # Add steps that publish symbols, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/apps/aspnet/build-aspnet-4
