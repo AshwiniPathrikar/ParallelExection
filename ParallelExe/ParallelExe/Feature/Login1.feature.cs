@@ -106,14 +106,14 @@ this.ScenarioInitialize(scenarioInfo);
 #line 8
  testRunner.Given("I navigate to application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-                TechTalk.SpecFlow.Table table5 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table11 = new TechTalk.SpecFlow.Table(new string[] {
                             "UserName",
                             "Password"});
-                table5.AddRow(new string[] {
+                table11.AddRow(new string[] {
                             "admin",
                             "admin"});
 #line 9
- testRunner.And("I enter username and password", ((string)(null)), table5, "And ");
+ testRunner.And("I enter username and password", ((string)(null)), table11, "And ");
 #line hidden
 #line 12
  testRunner.And("I click login", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");

@@ -106,28 +106,28 @@ this.ScenarioInitialize(scenarioInfo);
 #line 8
  testRunner.Given("I navigate to application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-                TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table9 = new TechTalk.SpecFlow.Table(new string[] {
                             "UserName",
                             "Password"});
-                table3.AddRow(new string[] {
+                table9.AddRow(new string[] {
                             "admin",
                             "admin"});
 #line 9
- testRunner.And("I enter username and password", ((string)(null)), table3, "And ");
+ testRunner.And("I enter username and password", ((string)(null)), table9, "And ");
 #line hidden
 #line 12
  testRunner.And("I click login", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-                TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
+                TechTalk.SpecFlow.Table table10 = new TechTalk.SpecFlow.Table(new string[] {
                             "Initial",
                             "FirstName",
                             "MiddleName"});
-                table4.AddRow(new string[] {
+                table10.AddRow(new string[] {
                             "A",
                             "Ashwini",
                             "R"});
 #line 13
- testRunner.And("I start entering user form details like", ((string)(null)), table4, "And ");
+ testRunner.And("I start entering user form details like", ((string)(null)), table10, "And ");
 #line hidden
 #line 16
  testRunner.And("I click submit button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
